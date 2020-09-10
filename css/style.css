@@ -1,0 +1,114 @@
+body{
+  text-align:center;
+  font-family:Open Sans,Sans-Serif;
+  background-color:#8a71c9;
+  color: #ffffff;
+  margin:0;
+  margin-bottom: 30px;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 300px;
+}
+h2{
+  color:#2a0074;
+  font-size:40px;
+}
+
+.titulo-infancia{
+  color:#04ff9f;
+  font-size: 22px;
+  font-style: italic;
+}
+.titulo-juventude{
+  color:#FF9E9E;
+  font-size: 22px;
+  font-style:italic;
+}
+.titulo-adulta{
+  color:#ffe36d;
+  font-size: 22px;
+  font-style: italic;
+}
+
+section{
+  width:60%;
+  margin: 0 auto;
+}
+
+section section{
+  width:100%;
+}
+
+p{
+  line-height: 1.5;
+  font-size:20px;
+}
+
+img{
+  width:100%;
+}
+
+ul{
+  list-style-type:none;
+  font-weight: 700;
+  padding-left:0;
+}
+
+input:focus {
+  background-color: rgb(161, 203, 252);
+
+}
+
+a{
+  text-decoration: none;
+  color: #99ffff;
+  line-height: 2;
+}
+
+a:unvisited{
+  color:#99ffff;
+}
+
+a:visited{
+  color: blue;
+}
+
+a:hover{
+  color:green;
+}
+
+a:active{
+  color:red;
+}
+
+.principal ul li a{
+  color: white;
+  text-decoration-line: underline ;
+  font-weight: normal;
+}
+.principal{
+  background-color: #FF6CB5;
+  height: auto;
+  max-width: 60%;
+  margin: 0 auto;
+}
+.principal li{
+  display: inline-block;
+  line-height: center;
+  margin: 0 89px;
+}
+
+li.highligth:hover {
+  background-color: rgb(241, 195, 218);
+
+}
+
+button{
+  background-color:#41f341;
+  border: 1px solid transparent;
+  margin: 2px 20px;
+  border-radius: 3px;
+}
+
